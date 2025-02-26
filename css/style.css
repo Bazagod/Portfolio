@@ -160,6 +160,18 @@ section {
     text-align: center;
 }
 
+.small-logo {
+    width: 80px;  /* Taille initiale du logo */
+    height: auto; /* Garde les proportions de l'image */
+    transition: transform 0.3s ease;  /* Effet de transition fluide lors du survol */
+}
+
+.small-logo:hover {
+    transform: scale(1.2);  /* Agrandit l'image à 120% de sa taille d'origine */
+}
+
+
+
 .info h3 {
     color: #384363;
     font-size: 1.2em;
