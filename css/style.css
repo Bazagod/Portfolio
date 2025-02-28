@@ -161,14 +161,34 @@ section {
 }
 
 .small-logo {
-    width: 80px;  /* Taille initiale du logo */
-    height: auto; /* Garde les proportions de l'image */
-    transition: transform 0.3s ease;  /* Effet de transition fluide lors du survol */
+    width: 60px;
+    height: auto; 
+    transition: transform 0.3s ease; 
 }
 
 .small-logo:hover {
-    transform: scale(1.2);  /* Agrandit l'image à 120% de sa taille d'origine */
+    transform: scale(1.2);
 }
+.skills-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill {
+    text-align: center;
+}
+h4, .skill span {
+    color: #ffffff;
+}
+
+.skill span {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
 
 
 
